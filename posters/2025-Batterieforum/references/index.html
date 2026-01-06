@@ -9,27 +9,52 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            max-width: 800px; /* Improved readability by limiting content width */
-            margin: 0 auto; /* Center alignment */
+            max-width: 800px; 
+            margin: 0 auto; 
             padding: 20px;
+            color: #333;
         }
         h2 {
-            border-bottom: 2px solid #eee; /* Divider under the title */
+            border-bottom: 2px solid #eee; 
             padding-bottom: 5px;
-            margin-bottom: 25px;
+            margin-top: 40px;
+            margin-bottom: 20px;
         }
-        ol {
-            padding-left: 25px; /* left margin */
+        h2:first-of-type {
+            margin-top: 20px;
         }
-        ol li {
-            margin-bottom: 20px; /* Spacing between items */
+        ul, ol {
+            padding-left: 25px; 
+        }
+        li {
+            margin-bottom: 12px; 
+        }
+        .email {
+            font-family: monospace;
+            color: #666;
+            font-size: 0.95em;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
-    <h2>Literaturverzeichnis</h2>
+    <h2>Authors</h2>
+    <ul>
+        <li><strong>Annika Nora Staats</strong> (<a href="mailto:a.staats@tu-berlin.de" class="email">a.staats@tu-berlin.de</a>)</li>
+        <li><strong>Raduan Djaid</strong> (<a href="mailto:raduan.djaid@campus.tu-berlin.de" class="email">raduan.djaid@campus.tu-berlin.de</a>)</li>
+        <li><strong>Jaehyun Lee</strong> (<a href="mailto:jaehyun.lee@tu-berlin.de" class="email">jaehyun.lee@tu-berlin.de</a>)</li>
+        <li><strong>Fatemeh Nasri</strong> (<a href="mailto:fatemeh.nasri@pace.de" class="email">fatemeh.nasri@pace.de</a>)</li>
+        <li><strong>Christoph Junkereit</strong> (<a href="mailto:christoph.junkereit@pace.de" class="email">christoph.junkereit@pace.de</a>)</li>
+    </ul>
 
+    <h2>Literaturverzeichnis</h2>
     <ol>
       <li>
         Yang, S., Zhang, Z., Lin, J., Zhang, L., Wang, L., Chen, S., ... &amp; Liu, X. (2022). Recent progress in quasi/all-solid-state electrolytes for lithium–sulfur batteries.
